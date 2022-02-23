@@ -1,5 +1,5 @@
-# yolov4
-# yolov4
+# Mushroom Detector using yolov4, streamlit and Ubuntu server
+
 
 
 #INSTALLATION PROCESS
