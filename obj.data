@@ -1,5 +1,0 @@
-classes=1
-train=/home/beto/darknet/data/train.txt
-valid=/home/beto/darknet/data/test.txt
-names=/home/beto/darknet/data/obj.names
-backup=/home/beto/yolov4/backup

@@ -1,1 +1,0 @@
-[b'/bin/sh: 1: ./darknet: not found\n']
