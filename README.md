@@ -1,2 +1,2 @@
-# Mushroom Detector using yolov4, streamlit and Ubuntu server
+# Mushroom Detector using yolov4, streamlit and docker
 
