@@ -2,6 +2,8 @@
 
 ## Installation Steps:
 
+## Docker image download:
+
 * The installation requires Docker to be installed in the server
 * Optional:
 [Docker installation on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
@@ -39,9 +41,10 @@ get mushroom_app_21032022_latest.tar.gz
 * Close and exit the ftp conection
 
 ```shell
-get mushroom_app_21032022_latest.tar.gz
+exit
 ```
 
+## Installation:
 
 ### Unzip the contents using gzip
 
@@ -50,18 +53,12 @@ get mushroom_app_21032022_latest.tar.gz
 ```shell
 gzip -d mushroom_app_21032022_latest.tar.gz
 ```
+* By applying "load" the image will be uploaded to the current Docker installation
 
+```shell
+sudo docker load -i mushroom_app_21032022_latest.tar
+```
 
-
-sudo docker save -o mushroom_app_21032022_latest.tar mushroom_app:latest
-
-
-#compress using gzip
-sudo gzip mushroom_app_21032022_latest.tar
-sudo gzip mushroom_app_21032022.tar
-
-#uncompress
-#deploy
 
 
 #now create a detached container
