@@ -74,7 +74,7 @@ sudo docker ps -a
 sudo docker exec <container_id> /app/init_script.sh -dit
 ```
 
-## Set up and start:
+## Use:
 
 * The mushroom detector now is working at <your_server_ip_addr>:8501
 
