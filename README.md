@@ -3,7 +3,8 @@
 ## Installation Steps:
 
 * The installation requires Docker to be installed in the server
-Optional: [Docker installation on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+* Optional:
+[Docker installation on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 ### Create a folder in your current home directory
 
