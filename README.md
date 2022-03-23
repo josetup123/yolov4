@@ -64,7 +64,7 @@ sudo docker load -i mushroom_app_21032022_latest.tar
 sudo docker run -dit -p  8501:8501 mushroom_app:latest
 ```
 
-* Get ID of container
+* Get the container_id
 ```shell
 sudo docker ps -a
 ```
@@ -73,6 +73,10 @@ sudo docker ps -a
 ```shell
 sudo docker exec <container_id> /app/init_script.sh -dit
 ```
+
+## Set up and start:
+
+* The mushroom detector now is working at <your_server_ip_addr>:8501
 
 
 
