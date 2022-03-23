@@ -59,9 +59,19 @@ gzip -d mushroom_app_21032022_latest.tar.gz
 sudo docker load -i mushroom_app_21032022_latest.tar
 ```
 
+## Set up and start:
 
+* Now create a detached container
 
-#now create a detached container
+```shell
 sudo docker run -dit mushroom_app:latest
+```
+
+* get ID of container
+
+
+```shell
 sudo docker exec cc7dd0fffe75 /app/init_script.sh -dit
+```
+
 
