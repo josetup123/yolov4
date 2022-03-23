@@ -67,11 +67,16 @@ sudo docker load -i mushroom_app_21032022_latest.tar
 sudo docker run -dit mushroom_app:latest
 ```
 
-* get ID of container
-
-
+* Get ID of container
 ```shell
-sudo docker exec cc7dd0fffe75 /app/init_script.sh -dit
+sudo docker ps -a
 ```
+
+* Execute initialization script
+```shell
+sudo docker exec <container_id> /app/init_script.sh -dit
+```
+
+
 
 
