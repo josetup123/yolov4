@@ -43,7 +43,7 @@ get mushroom_app_21032022_latest.tar.gz
 exit
 ```
 
-## Installation:
+## Set up and start:
 
 ### Unzip the contents using gzip
 
@@ -57,8 +57,6 @@ gzip -d mushroom_app_21032022_latest.tar.gz
 ```shell
 sudo docker load -i mushroom_app_21032022_latest.tar
 ```
-
-## Set up and start:
 
 * Now create a detached container
 
