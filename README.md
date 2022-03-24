@@ -78,6 +78,13 @@ sudo docker exec <container_id> /app/init_script.sh -dit
 
 * The mushroom detector now is working at <your_server_ip_addr>:8501
 
+* You can try the application at: > [Mushroom detector](http://160.36.50.64:8501/)
+
+![Preview](http://160.36.50.64:8501/media/f5e9bd86cfdbfc0a28b0410077eb7e8f61ae923ddb2286054d8e9820.jpeg)
+
+
+
+
 
 
 
